@@ -1,12 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>100x</title>
-    <link href="../dist/output.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Write your code here -->
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layouts</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-neutral-1000 font-inter flex md:justify-center items-center h-screen md:gap-7 md:flex-row flex-col">
+
+  <!-- Logo Section -->
+  <section class="flex justify-center px-4 py-3 md:hidden w-full mt-11 mb-48 self-start">
+
+    <img src="../public/images/logo.svg" alt="100x-Logo" class="">
+  
+  </section>
+
+  <section class="items-center justify-center hidden md:block">
+
+    <img src="../public/images/logo.svg" alt="100x-Logo" class="w-150 h-50">
+  
+  </section>
+
+  <!-- Login / SignUp Section -->
+  <section class="w-full md:w-max flex flex-col px-7">
+
+    <div>
+
+      <h2 class="text-neutral-50 text-4xl md:text-5xl font-extrabold">Happening Now</h2>
+      <h3 class="text-neutral-50 text-base md:text-3xl font-medium mt-3">Join today.</h3>
+
+    </div>
+
+    <a href="../src/Login/CreateAccS1.html">
+
+      <div class="w-full">
+        <button class="text-neutral-1000 bg-neutral-50 hover:bg-neutral-200 px-6 py-2 w-full my-10 font-bold rounded-4xl backdrop:blur-xl shadow-neutral">
+          Create Account
+        </button>
+      </div>
+      
+    </a>
+    
+      <div class="flex items-center">
+        <div class="w-full h-px bg-neutral-700"></div>
+        <span class="text-neutral-50 font-normal text-base">or</span>
+        <div class="w-full h-px bg-neutral-700"></div>
+      </div>
+
+      <div>
+
+        <p class="text-neutral-50 mt-10 text-semi-base font-normal">Already have an account?</p>
+
+        <button class="my-5 py-2 px-6 rounded-4xl w-full text-twitter-blue border border-button-stroke hover:bg-neutral-50 backdrop-blur-xl shadow-neutral">
+          Sign In
+        </button>
+
+      </div>
+
+  </section>
+</body>
 </html>
