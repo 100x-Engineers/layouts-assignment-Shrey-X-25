@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+</head>
+
+<body class=" bg-neutral-1000 font-inter px-4">
+
+    <section class="flex w-full mt-11 py-3 justify-between items-center">
+
+        <div class="flex py-3 w-full justify-between items-center">
+
+            <div class="flex gap-5">
+
+                <a href="../HomeFeed/HomeFeed.html">
+                    <img src="../../public/images/back.svg" alt="Back">
+                </a>
+    
+                <p class=" text-neutral-50 font-bold text-base">Edit profile</p>
+            
+            </div>
+
+            <div class="">
+
+                <a href="../UserProfile/UserFeed.html">
+                    <button class=" text-neutral-1000 bg-neutral-50 px-5 py-2 w-18 text-sm font-bold rounded-3.5xl backdrop:blur-xl shadow-neutral">
+                        Save
+                    </button>
+                </a>
+    
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class=" w-full py-3 flex flex-col relative justify-center items-center">
+
+        <div>
+            <img src="../../public/images/bg-cover.png" alt="Background_Picture" class=" bg-cover h-50">
+        </div>
+
+        <div class="flex absolute gap-2">
+            <img src="../../public/images/camera.svg" alt="Upload Picture">
+            <img src="../../public/images/cancel.svg" alt="Cancel">
+        </div>
+
+        <div class=" absolute pl-2.5 pb-3 bottom-3 top-36 left-0">
+            <img src="https://shorturl.at/apDF3" alt="Profile Pic" srcset="" class=" h-20 w-20 rounded-full border-4 border-neutral-1000">
+        </div>
+        
+    </section>
+
+    <section class="  mt-5">
+
+        <div class="flex relative border border-neutral-500 px-3 py-3 mb-5 rounded bg-transparent text-neutral-50 focus-within:border-twitter-blue">
+
+            <input type="text" name="Name" id="name" placeholder="Name" class="peer w-full text-semi-base bg-transparent border-none placeholder:text-neutral-500 focus:outline-none focus:ring-neutral-950 caret-transparent">
+
+            <label class="absolute bg-neutral-1000 text-xs top-2.5- left-2 px-3 text-neutral-500 peer-focus:text-twitter-blue">Name</label>
+
+        </div>
+
+        <!-- I have Used textarea tag here so that i can give a Limited amount of Rows to the Bio textarea -->
+
+        <div class="flex relative border border-neutral-500 px-3 py-3 mb-5 rounded bg-transparent text-neutral-50 focus-within:border-twitter-blue">
+
+            <textarea type="text" name="bio" id="bio" placeholder="Something About You" rows="3" class="peer w-full resize-none bg-transparent border-none placeholder:text-neutral-500 focus:outline-none focus:ring-neutral-950 caret-transparent">Digital Goodies Team - Web & Mobile UI/UX development; Graphics; Illustrations</textarea>
+
+            <label class="absolute bg-neutral-1000 text-xs top-2.5- left-2 px-3 text-neutral-500 peer-focus:text-twitter-blue">Bio</label>
+
+        </div>
+
+        <div class="flex relative border border-neutral-500 px-3 py-3 mb-5 rounded bg-transparent text-neutral-50 focus-within:border-twitter-blue">
+
+            <input type="text" name="Name" id="name" placeholder="Name" class="peer w-full text-semi-base bg-transparent border-none placeholder:text-neutral-500 focus:outline-none focus:ring-neutral-950 caret-transparent">
+
+            <label class="absolute bg-neutral-1000 text-xs top-2.5- left-2 px-3 text-neutral-500 peer-focus:text-twitter-blue">Location</label>
+
+        </div>
+
+        <div class="flex relative border border-neutral-500 px-3 py-3 mb-5 rounded bg-transparent text-neutral-50 focus-within:border-twitter-blue">
+
+            <input type="text" name="Name" id="name" placeholder="Name" class="peer w-full text-semi-base bg-transparent border-none placeholder:text-neutral-500 focus:outline-none focus:ring-neutral-950 caret-transparent">
+
+            <label class="absolute bg-neutral-1000 text-xs top-2.5- left-2 px-3 text-neutral-500 peer-focus:text-twitter-blue">Website</label>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

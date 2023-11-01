@@ -78,6 +78,7 @@ module.exports = {
       width: {
         // Naming things is hard...
         17.5: "71px",
+        18: "74px",
         22: "84px",
         22.5: "85px",
         88.5: "360px",
@@ -93,7 +94,9 @@ module.exports = {
       },
 
       height: {
+        13: "50px",
         14.5: "58px",
+        26: "102px",
         36.5: "150px",
         88.5: "355px",
         50: "200px",
@@ -116,6 +119,7 @@ module.exports = {
       },
 
       padding: {
+        21: "84px",
         22: "93px",
         3.75: "15px",
       },
