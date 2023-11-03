@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+
+</head>
+
+<body class=" bg-neutral-1000 font-inter w-screen h-screen">
+
+    <header class="flex mt-11 px-4">
+
+        <section class="flex py-3 w-full justify-between items-center">
+
+            <a href="../HomeFeed/HomeFeed.html">
+                <img src="../../public/images/close.svg" alt="">
+            </a>
+
+            <a href="../UserProfile/UserFeed.html">
+                <button class="text-neutral-50 bg-twitter-blue hover:bg-twitter-blue-hover px-6 py-2 w-20 text-sm font-bold rounded-3.5xl backdrop:blur-xl shadow-neutral">
+                    Post
+                </button>
+            </a>
+
+        </section>
+
+    </header>
+    
+    <section class="flex flex-col px-4">
+
+        <div class="flex gap-3 h-full w-full">
+
+            <div class=" align-middle">
+                <img src="https://shorturl.at/apDF3" alt="Profile Pic" class=" h-9 w-9 rounded-full p-0">
+            </div>
+
+            <div class="w-full py-1">
+                <textarea type="text" name="thought" id="thought" rows="8" cols="50" class="flex text-base font-normal border h-full w-full bg-transparent border-none text-neutral-50 focus:outline-none  focus:ring-neutral-950 caret-twitter-blue" spellcheck="false" placeholder="What's happening ?"></textarea>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="flex fixed bottom-0 w-full border-t border-neutral-800">
+        <div class="px-4 py-3">
+            <p class="text-neutral-500">
+                0/280
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
